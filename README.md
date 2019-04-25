@@ -6,7 +6,7 @@ git config --global user.name "Anderson"
 git config --global user.email "andersonmacedo1782@hotmail.com"
 git config --global core.editor code .
 git config --list
-
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 git init //iniciar repositorio "untracked"
 git status //mostra arquivos modificados 
 git add nome arquivo //adiciona ao git "stage area"
@@ -24,5 +24,6 @@ git diff //mostra as mudancas antes de adiconar ao stage area fazer commit
 git diff --name-only // mostra apenas nomes arquivos antes de adiconar ao stage area fazer commit
 git checkout nome arquivo //volta para estado antes de ser modificado (obs. usar git diff antes)
 git reset HEAD nome arquivo //volta arquivo do estage area apos add.
-git reset --soft nome arquivo //escolher a hash que vai querer voltar, ai ele volta para stage commit
-git reset --mixed nome arquivo //
+git reset --soft nome arquivo //escolher a hash que vai querer voltar, ai ele volta para stage de commit "ja comitar"
+git reset --mixed nome arquivo //escolher a hash que vai querer voltar, ai ele volta para stage add "adicionar ainda"
+git reset --hard //apaga tudo nem aparece em estage algum
