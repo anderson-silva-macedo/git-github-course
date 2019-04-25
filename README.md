@@ -1,4 +1,4 @@
-Comandos basicos
+Comandos básicos
 
 configuracao inicial
 
@@ -18,8 +18,10 @@ git log --author "nome pessoa"
 git shortlog //mostra resumo qtos autores e quais msg commits
 git shortlog -sn //mostra qtde commits e nome pessoa
 git log --graph //mostra forma grafica os commits
-git show e041228f1bd658006c4258a21c5e27b1ead2e84e //mostra detalhes da rash
+git show e041228f1bd658006c4258a21c5e27b1ead2e84e //mostra detalhes da hash
 git diff //mostra as mudancas antes de adiconar ao stage area fazer commit
 git diff --name-only // mostra apenas nomes arquivos antes de adiconar ao stage area fazer commit
 git checkout nome arquivo //volta para estado antes de ser modificado (obs. usar git diff antes)
 git reset HEAD nome arquivo //volta arquivo do estage area apos add.
+git reset --soft nome arquivo //escolher a hash que vai querer voltar, ai ele volta para stage commit
+git reset --mixed nome arquivo //
