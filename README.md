@@ -21,3 +21,5 @@ git log --graph //mostra forma grafica os commits
 git show e041228f1bd658006c4258a21c5e27b1ead2e84e //mostra detalhes da rash
 git diff //mostra as mudancas antes de adiconar ao stage area fazer commit
 git diff --name-only // mostra apenas nomes arquivos antes de adiconar ao stage area fazer commit
+git checkout nome arquivo //volta para estado antes de ser modificado (obs. usar git diff antes)
+git reset HEAD nome arquivo //volta arquivo do estage area apos add.
