@@ -15,4 +15,9 @@ git commit -m "msg" //adiciona ao "stage repository"
 git log //mostra informacoes
 git log --decorate //mostra informacoes e qual branch
 git log --author "nome pessoa"
-git shortlog //mostra resumo
+git shortlog //mostra resumo qtos autores e quais msg commits
+git shortlog -sn //mostra qtde commits e nome pessoa
+git log --graph //mostra forma grafica os commits
+git show e041228f1bd658006c4258a21c5e27b1ead2e84e //mostra detalhes da rash
+git diff //mostra as mudancas antes de adiconar ao stage area fazer commit
+git diff --name-only // mostra apenas nomes arquivos antes de adiconar ao stage area fazer commit
