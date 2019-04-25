@@ -11,6 +11,7 @@ git init //iniciar repositorio "untracked"
 git status //mostra arquivos modificados 
 git add nome arquivo //adiciona ao git "stage area"
 git rm nome arquivo //remove ao git "stage area"
+git commit -am "msg" //adicona e ja faz commit
 git commit -m "msg" //adiciona ao "stage repository"
 git log //mostra informacoes
 git log --decorate //mostra informacoes e qual branch
