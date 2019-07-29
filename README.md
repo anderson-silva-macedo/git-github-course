@@ -1,4 +1,3 @@
-Git e Github course.
+Principais comandos do git
 
 
-Saiba mais [andersonmacedo.netlify.com](https://andersonmacedo.netlify.com)
